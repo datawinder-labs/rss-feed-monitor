@@ -13,8 +13,31 @@ This tool is a managed Actor on the Apify platform.
 
 ### Example Output
 ```json
-{
-  "health_score": 98,
-  "events": ["ITEM_ADDED"],
-  "summary": { "critical": 0, "warnings": 0 }
-}
+[
+  {
+    "type": "run_summary",
+    "feedId": "6a418c5313a09d59",
+    "feedUrl": "https://hnrss.org/frontpage",
+    "runId": "MjsYubyL0aSBP7l1Q",
+    "timestamp": "2026-04-23T15:15:43.930Z",
+    "summary": {
+      "totalEvents": 0,
+      "critical": 0,
+      "warning": 0,
+      "info": 0
+    },
+    "health": {
+      "previous": 90,
+      "current": 90.2,
+      "delta": 0.2
+    },
+    "events": [],
+    "metrics": {
+      "previousItemCount": 20,
+      "currentItemCount": 20,
+      "overlapCount": 20,
+      "processingTimeMs": 4694
+    }
+  }
+]
+```
